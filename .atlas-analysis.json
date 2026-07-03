@@ -1,0 +1,72 @@
+{
+  "projectType": "saas",
+  "projectName": "DailyPilot by AltmanAI",
+  "projectDescription": "DailyPilot is a human-first AI co-pilot by AltmanAI that helps users plan their day, track progress, reflect with clarity, and stay aligned with long-term goals.",
+  "theme": "almond",
+  "primaryColor": "#848483",
+  "lightColor": "#0d0d0d",
+  "darkColor": "#c7c6c5",
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "DailyPilot",
+        "groups": [
+          {
+            "group": "Get Started",
+            "pages": [
+              "introduction",
+              "quickstart",
+              "whats-new"
+            ]
+          },
+          {
+            "group": "Core Features",
+            "pages": [
+              "features/daily-check-ins",
+              "features/goals-milestones",
+              "features/pilot-ai",
+              "features/impact-ledger",
+              "features/reflections"
+            ]
+          },
+          {
+            "group": "The P.A.I.H.I. Framework",
+            "pages": [
+              "paihi/overview",
+              "paihi/proof",
+              "paihi/alignment"
+            ]
+          },
+          {
+            "group": "Account & Privacy",
+            "pages": [
+              "account/setup",
+              "account/privacy",
+              "account/trust-center"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "keyFeatures": [
+    "P.A.I.H.I. Operating System (Proof, Alignment, Integrity, Humanity, Impact)",
+    "Pilot AI Co-Pilot — calm, supportive AI decision assistant",
+    "Goals & Milestones with AI-assisted decomposition",
+    "Daily Check-Ins — morning intentions and evening reflections",
+    "Impact Ledger — auditable record of real daily progress",
+    "Public Trust Center — privacy controls and audit logs",
+    "Plan, Track, Reflect, Align — four-pillar daily workflow",
+    "Web app accessible from any modern browser"
+  ],
+  "publicApiSurface": [
+    "Google SSO sign-in",
+    "Email/password registration",
+    "Daily check-in creation",
+    "Goal & milestone management",
+    "Reflection journaling",
+    "Impact Ledger entries",
+    "Pilot AI co-pilot interactions",
+    "Privacy and data controls"
+  ]
+}

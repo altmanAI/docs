@@ -1,72 +1,72 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "mint",
-  "name": "Mintlify Starter Kit",
+  "name": "DailyPilot by AltmanAI",
+  "theme": "almond",
+  "favicon": "https://media.brand.dev/3dad6c88-9de9-4fc6-a6f2-15181ea6320d.jpg",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#848483",
+    "light": "#0d0d0d",
+    "dark": "#c7c6c5"
   },
-  "favicon": "/favicon.svg",
-  "navigation": {
-    "pages": [
-      {
-        "group": "Getting Started",
-        "pages": [
-          "index",
-          "quickstart"
-        ]
-      }
-    ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
-        }
-      ]
+  "appearance": {
+    "default": "dark"
+  },
+  "font": {
+    "headings": {
+      "family": "Inter"
+    },
+    "body": {
+      "family": "Inter"
     }
-  },
-  "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
   },
   "navbar": {
-    "links": [
-      {
-        "label": "Support",
-        "href": "mailto:hi@mintlify.com"
-      }
-    ],
     "primary": {
       "type": "button",
-      "label": "Dashboard",
-      "href": "https://app.mintlify.com"
+      "label": "Launch DailyPilot",
+      "href": "https://www.altmanai.tech/launch"
     }
   },
-  "contextual": {
-    "options": [
-      "copy",
-      "view",
-      "chatgpt",
-      "claude",
-      "perplexity",
-      "mcp",
-      "cursor",
-      "vscode"
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "DailyPilot",
+        "groups": [
+          {
+            "group": "Get Started",
+            "pages": [
+              "introduction",
+              "quickstart",
+              "whats-new"
+            ]
+          },
+          {
+            "group": "Core Features",
+            "pages": [
+              "features/daily-check-ins",
+              "features/goals-milestones",
+              "features/pilot-ai",
+              "features/impact-ledger",
+              "features/reflections"
+            ]
+          },
+          {
+            "group": "The P.A.I.H.I. Framework",
+            "pages": [
+              "paihi/overview",
+              "paihi/proof",
+              "paihi/alignment"
+            ]
+          },
+          {
+            "group": "Account & Privacy",
+            "pages": [
+              "account/setup",
+              "account/privacy",
+              "account/trust-center"
+            ]
+          }
+        ]
+      }
     ]
-  },
-  "footer": {
-    "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
-    }
   }
 }
