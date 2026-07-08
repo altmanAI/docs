@@ -1,55 +1,37 @@
-# Mintlify Starter Kit
+# AltmanAI / DailyPilot Docs
 
-Use the starter kit to get your docs deployed and ready to customize.
+**Source for the official DailyPilot documentation site**, built with [Mintlify](https://mintlify.com).
 
-Click the green **Use this template** button at the top of this repo to copy the Mintlify starter kit. The starter kit contains examples with
+DailyPilot is AltmanAI's human-first AI productivity co-pilot — this repo contains the actual published docs: quickstart, feature guides (Daily Check-Ins, Goals, Pilot AI, Impact Ledger, Reflections), account/billing help, and the P.A.I.H.I. framework overview that grounds DailyPilot's design philosophy.
 
-- Guide pages
-- Navigation
-- Customizations
-- API reference pages
-- Use of popular components
+**Humanity leads. Intelligence follows.**
 
-**[Follow the full quickstart guide](https://starter.mintlify.com/quickstart)**
+---
 
-## AI-assisted writing
+## Structure
 
-Set up your AI coding tool to work with Mintlify:
+```
+introduction.mdx      Product overview
+quickstart.mdx        Getting started
+whats-new.mdx         v2.0 release notes
+features/             Feature-by-feature guides
+paihi/                The P.A.I.H.I. framework explained
+account/              Account & billing docs
+sources/              Reference/source material
+docs.json             Mintlify site config (nav, theme, branding)
+```
+
+## Local preview
 
 ```bash
-npx skills add https://mintlify.com/docs
-```
-
-This command installs Mintlify's documentation skill for your configured AI tools like Claude Code, Cursor, Windsurf, and others. The skill includes component reference, writing standards, and workflow guidance.
-
-See the [AI tools guides](/ai-tools) for tool-specific setup.
-
-## Development
-
-Install the [Mintlify CLI](https://www.npmjs.com/package/mint) to preview your documentation changes locally. To install, use the following command:
-
-```
 npm i -g mint
-```
-
-Run the following command at the root of your documentation, where your `docs.json` is located:
-
-```
 mint dev
 ```
 
-View your local preview at `http://localhost:3000`.
+## Contributing
 
-## Publishing changes
+Docs changes go through the same AltmanAI review process as code — see [`altmanAI/.github`](https://github.com/altmanAI/.github) for governance and contribution guidelines.
 
-Install our GitHub app from your [dashboard](https://dashboard.mintlify.com/settings/organization/github-app) to propagate changes from your repo to your deployment. Changes are deployed to production automatically after pushing to the default branch.
+## License
 
-## Need help?
-
-### Troubleshooting
-
-- If your dev environment isn't running: Run `mint update` to ensure you have the most recent version of the CLI.
-- If a page loads as a 404: Make sure you are running in a folder with a valid `docs.json`.
-
-### Resources
-- [Mintlify documentation](https://mintlify.com/docs)
+See [`LICENSE`](LICENSE).
